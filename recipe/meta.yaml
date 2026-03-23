@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - joblib
-    - mlflow
+    - mlflow >= 2.20.4
     - numpy
     - pandas
     - rich[jupyter] >=14.2
