@@ -14,7 +14,7 @@ build:
     - skore.plugins.project.mlflow = skore_mlflow_project:Project
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - joblib
-    - mlflow
+    - mlflow >=2.20.4
     - numpy
     - pandas
     - rich[jupyter] >=14.2
