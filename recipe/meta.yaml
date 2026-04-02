@@ -1,5 +1,5 @@
 {% set name = "skore-mlflow-project" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skore_mlflow_project-{{ version }}.tar.gz
-  sha256: 959d688e6e6eff13d6a983d1f2396eaa799042c29940cb87495e44c9bb6cdf1a
+  sha256: 1d01c90ebc622402b07fa54c384b85363c8937100e0e4875e05bd6b88c67f292
 
 build:
   entry_points:
